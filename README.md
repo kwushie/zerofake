@@ -16,10 +16,10 @@ You can reconstruct the given image by:
 python uni-ddim-inversion.py --target image-directory-path --output output-directory-path
 ```
 
-The you can compute the similarity between the origianl images and the reconstructed images by:
+Then you can compute the similarity between the original images and the reconstructed images by:
 
 ```
 python sim.py --orginal image-directory-path1 --reconstruct image-directory-path2 
 ```
 
-
+A sample dataset is in IMDB-WIKI_small
